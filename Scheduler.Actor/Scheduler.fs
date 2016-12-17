@@ -45,8 +45,6 @@
 
     let scheduleActor props (mailbox: Actor<_>) =
 
-        let t = TriggerBuilder.Create().StartNow().Build()
-
         let scheduler =
             match props with
             | Some props -> StdSchedulerFactory(props).GetScheduler()
