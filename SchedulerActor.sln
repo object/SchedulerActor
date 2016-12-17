@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Scheduler.Actor", "Scheduler.Actor\Scheduler.Actor.fsproj", "{29C0FCDC-E100-456C-9F35-06CC54472787}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Scheduler.Tests", "Scheduler.Tests\Scheduler.Tests.fsproj", "{C747293E-3176-4B6E-AD7E-A619859F065B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29C0FCDC-E100-456C-9F35-06CC54472787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C0FCDC-E100-456C-9F35-06CC54472787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C0FCDC-E100-456C-9F35-06CC54472787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C0FCDC-E100-456C-9F35-06CC54472787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C747293E-3176-4B6E-AD7E-A619859F065B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C747293E-3176-4B6E-AD7E-A619859F065B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C747293E-3176-4B6E-AD7E-A619859F065B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C747293E-3176-4B6E-AD7E-A619859F065B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
